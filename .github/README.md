@@ -1,8 +1,50 @@
-Killer Drupal 8 Workflow for Platform.sh
-========================================
+# Scion
 
-**THIS PROJECT IS DEPRECATED IN FAVOR OF**
+>### Introduction
+
+This repository contains files for use in developing applications using various methods and technologies. If you are contributing code for the site's functionality and need access to a local version of this application on your system, setup instructions, documentation and automation are included for you in the section [below](#Installation).
+
+On the otherhand, if it is not necessary for you to have a local copy of the system, you can begin by reading the documentation linked in the contributing section that follows.
+
+Our usage of Github as a workspace combines several productivity strategies which are explained in further detail as you begin to explore the repositories.
+
+>### Contributing
+
+Your contribution to the "big picture" is essential to the success of our efforts and highly encouraged regardless of the individual projects you own. You will have the opportunity to engage in any conversation you think you can add value to.
+
+This entire process has been designed to break down complicated features and functions into managable directives for our contributors to execute.
+
+It all starts by understanding your roles within our workspace. If you are adding contributions that require a local copy of our site then complete the instructions in the next section before moving on.
+
+>### Installation
+
+The files here will be downloaded to a working directory called Projects on the root of your System during the installation procedure outlined below.
+
+Before proceeding you must first complete the following steps.
+
+ 1. Install a Compatible OS [Go!](https://github.com/cruz-street/cs-os)
+ 2. Run and complete the "Make Environment" installer [Go!](https://github.com/cruz-street/makee)
+ 3. Run and complete the Cruz Street Dev Environment. [Go!](https://github.com/cruz-street/cs_website)
+ 4. (Optionally) Run and complete the Developer Tools Setup. [Go!](https://github.com/cruz-street/dev_tools)
+
+>### Getting Started
+
+If you have intalled the local environment or if you do not need to do so, then check out our documentation on how to [contribute](CONTRIBUTING.md)!
+
+#
+#
+
+>## *THIS PROJECT IS A CUSTOMIZED FORK OF THE FOLLOWING REPOSITORY*
+
 https://github.com/thinktandem/template-drupal8
+
+>### *The version in this repository takes a more automated approach using the scripts linked above. Instructions for maintaining an updated version of the code base can be found here. The information below has been preserved for reference.*
+
+<details>
+<summary>View Upstream README.md</summary>
+<p>
+
+
 
 This project is meant to be forked and used as an easy-to-get-going start state for an awesome dev workflow that includes:
 
@@ -297,3 +339,5 @@ lando platform db:dump --gzip --file=dump.sql.gz --project=PROJECT_ID --environm
 lando db-import dump.sql.gz
 rm -f dump.sql.gz
 ```
+</p>
+</details> 
